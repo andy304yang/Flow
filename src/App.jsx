@@ -211,14 +211,14 @@ export default function App() {
         {/* Stats Grid */}
         <div className="stats-grid">
           <div className="glass stat-card">
-            <div className="stat-icon"><IconGrid /></div>
-            <span className="stat-big-val">100+</span>
-            <span className="stat-small-lbl">合作企业覆盖 10 个行业</span>
-          </div>
-          <div className="glass stat-card">
             <div className="stat-icon"><IconTarget /></div>
             <span className="stat-big-val">1000+</span>
             <span className="stat-small-lbl">真实岗位任务 已预置</span>
+          </div>
+          <div className="glass stat-card">
+            <div className="stat-icon"><IconGrid /></div>
+            <span className="stat-big-val">100+</span>
+            <span className="stat-small-lbl">合作企业覆盖 10 个行业</span>
           </div>
           <div className="glass stat-card stat-card-wide">
             <div className="active-left">
