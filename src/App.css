@@ -140,6 +140,13 @@
   word-break: keep-all;
   overflow-wrap: anywhere;
 }
+.hero-title-normal { color: #2D2D4C; }
+.hero-title-gradient {
+  background: linear-gradient(90deg, #888BFA 0%, #9898FB 29%, #CB74FF 64%, #E69FF0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 .hero-sub { font-size: 15px; color: #84849F; line-height: 26px; max-width: 270px; }
 
 /* ── Agent Card ── */
@@ -249,7 +256,7 @@
   align-items: center;
   justify-content: center;
   height: 42px;
-  background: linear-gradient(91.93deg, #888FFA 0.79%, #9988FB 29.09%, #CB74FF 63.98%, #E69FF0 97.9%);
+  background: linear-gradient(91deg, #7C5CFF 0%, #6EE7FF 100%);
   border: 1px solid rgba(255,255,255,0.4);
   box-shadow: 0 10px 15px -3px rgba(124,92,255,0.2);
   border-radius: 32px;
