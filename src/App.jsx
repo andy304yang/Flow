@@ -162,7 +162,7 @@ export default function App() {
             <IconBadge />
             <span className="badge-text">Yuzhi Agent Work</span>
           </div>
-          <h1 className="hero-title">不是投简历，<br/>让你的分身先去工作</h1>
+          <h1 className="hero-title"><span className="hero-title-normal">不是投简历，</span><br/><span className="hero-title-gradient">让你的分身先去工作</span></h1>
           <p className="hero-sub">
             上传简历或说一段自我介绍，生成你的能力 Agent，让它进入真实岗位任务中试跑、产出和证明你。
           </p>
